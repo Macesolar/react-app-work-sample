@@ -1,0 +1,74 @@
+/* MenuBar.css */
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.navbar-nav {
+  margin: 0 25%;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+
+.form-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 250px;
+  height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-div {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+  } 
+}
+.form-control {
+  width: 180px;
+  border: none;
+}
+
+.btn-outline-success {
+  font-size: 1.2rem;
+  border: none;
+  color: #28a745;
+}
+
+.btn-outline-success:hover {
+  color: white;
+}
+
+.btn-primary {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .btn-primary {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+    margin-top: 5%;
+  }
+
+}
